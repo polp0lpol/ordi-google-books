@@ -112,7 +112,7 @@ if 'num_pages' in df.columns and 'language' in df.columns:
     plt.tight_layout()
     plt.show()
 
-# heatmap корреляций
+# 5. heatmap корреляций
 sns.heatmap(corr_matrix, annot=True, cmap='coolwarm')
 plt.title('Корреляционная матрица числовых признаков')
 plt.show()
